@@ -1,0 +1,18 @@
+dependencies[] = "features"
+dependencies[] = "feeds"
+dependencies[] = "user_reference"
+description = "Imports classes to civicrm_multiday_events which creates a linked CiviEvent"
+features[ctools][] = "feeds:feeds_importer_default:1"
+features[feeds_importer][] = "classes_import"
+features[field][] = "node-civicrm_multiday_event-field_trainer"
+name = "MNN Class Import"
+
+
+
+
+package = "MNN Community Media Advanced"
+version = "7.x-1.x"
+core = "7.x"
+project = "mnn_class_import"
+project_status_url = https://github.com/cm-advanced/mnn_class_import
+
